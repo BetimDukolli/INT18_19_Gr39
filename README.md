@@ -1,2 +1,2 @@
-# INTERNET-project-gr.39
+# INT18_19_GrX
 Projekti  ne lenden Interneti
