@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: beige;
+}
+  .bottom-right {
+  position: absolute;
+  bottom: 8px;
+right:16px;
+
+}
+form.example button {
+  float: right;
+  width: 60px;
+  padding: 10px;
+  background: black;
+  color: beige;
+  font-size: 17px;
+  border: 1px solid black;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: black;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Head {
+display: block;
+background-color: white;
+margin-top: 0px;
+margin-left: 0px;
+margin-left: 0px;
+margin-bottom:0px;
+
+}
